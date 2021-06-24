@@ -10,6 +10,7 @@ int main() {
 	while (tt--) {
 		int n, m, x, y;
 		cin >> n >> m >> x >> y;
+		// view the image in this repository for better understanding
 		// calculate the distance (x, y) to (1, 1) (which is the upper left corner)
 		int upper_left_corner = abs(1 - x) + abs (y - 1);
 		// calculate the distance (x, y) to (1, m) (which is the upper right corner)
